@@ -1,0 +1,9 @@
+version: "3.3"
+services:
+  crowd-density-estimation_2:
+    image: crowd-density-estimation_2:latest
+    ports:
+      - "5003:5003"
+    build:
+      context: ./
+      dockerfile: Dockerfile

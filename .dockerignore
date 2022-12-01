@@ -1,0 +1,4 @@
+**/.images
+**/.logs
+**/flaskapp/log.txt
+venv/
